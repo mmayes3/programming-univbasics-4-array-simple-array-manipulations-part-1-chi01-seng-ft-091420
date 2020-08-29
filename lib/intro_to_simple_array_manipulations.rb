@@ -9,11 +9,11 @@ end
 def using_pop(array)
   array.pop
   updated_array = array
-  return updated_array
-  return array
+  puts updated_array
+  puts array
 end
 
-puts using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
+using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
 
 
