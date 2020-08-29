@@ -11,7 +11,12 @@ def using_pop(array)
   return k   
 end
 
+def pop_with_args(array)
+  k = array.pop(2)
+  puts k 
+end
 
+pop_with_args()
   
 
 
