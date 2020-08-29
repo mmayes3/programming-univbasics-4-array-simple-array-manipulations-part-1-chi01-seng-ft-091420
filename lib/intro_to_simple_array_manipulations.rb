@@ -9,6 +9,7 @@ end
 def using_pop(array)
   array.pop
   updated_array = array
+  return array.pop
 end
 
 
