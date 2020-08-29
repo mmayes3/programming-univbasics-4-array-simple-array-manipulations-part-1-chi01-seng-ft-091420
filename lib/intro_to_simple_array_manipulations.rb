@@ -16,7 +16,7 @@ def pop_with_args(array)
   puts k 
 end
 
-pop_with_args()
+pop_with_args(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
 
 
