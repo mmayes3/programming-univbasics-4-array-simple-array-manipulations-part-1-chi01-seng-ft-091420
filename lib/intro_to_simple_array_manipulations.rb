@@ -16,8 +16,17 @@ def pop_with_args(array)
   return k  
 end
 
+def using_shift(array)
+  k = array.shift
+  return k 
+end
 
-pop_with_args(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
+def shift_with_args(array)
+  k = array.shift(2)
+  puts k 
+end
+
+shift_with_args(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
 
 
