@@ -1,11 +1,9 @@
 def using_push(array, string)
-  colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-  next_color = "violet"
-  updated_array = colors_in_the_rainbow.push(next_color)
+  updated_array = array.push(string)
   puts updated_array.last
 end
 
-using_push
+using_push(colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"], next_color = "violet" )
 
 
 
