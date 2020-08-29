@@ -18,7 +18,7 @@ end
 
 def using_shift(array)
   k = array.shift
-  return k 
+  puts k 
 end
 
 def shift_with_args(array)
@@ -26,7 +26,7 @@ def shift_with_args(array)
   puts k 
 end
 
-shift_with_args(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
+using_shift(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
 
 
