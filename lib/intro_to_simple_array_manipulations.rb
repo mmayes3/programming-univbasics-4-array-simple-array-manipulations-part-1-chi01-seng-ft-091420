@@ -5,6 +5,7 @@ def using_push(array, string)
   puts updated_array.last
 end
 
+using_push
 
 
 
