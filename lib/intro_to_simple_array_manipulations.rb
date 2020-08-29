@@ -11,7 +11,7 @@ def using_pop(array)
   return updated_array
 end
 
-using_pop()
+puts using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
 
 
